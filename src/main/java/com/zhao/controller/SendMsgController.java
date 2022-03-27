@@ -52,7 +52,7 @@ public class SendMsgController {
                     correlationData.getMessageProperties().setDelay(delayTime);
                     return correlationData;
                 });
-        log.info(" 当 前 时 间 ： {}, 发送一条延迟 {} 毫秒的信息给队列 delayed.queue:{}", new
+        log.info(" 当 前 时 间 2： {}, 发送一条延迟 {} 毫秒的信息给队列 delayed.queue:{}", new
                 Date(),delayTime, message);
     }
 }
